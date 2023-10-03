@@ -1,0 +1,200 @@
+body {
+    background-image: url(https://img.freepik.com/premium-vector/gold-abstract-blurred-colorful-wallpaper-background_430227-420.jpg?w=2000);
+    padding: .5% 2% .5% 2%;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* .home {
+    font-size: 2em;
+    font-weight: 900;
+    text-align: left;
+} */
+
+.links {
+    text-align: right;
+    font-weight: 900;
+    margin-bottom: 5em;
+}
+
+nav a {
+    padding: 0 2% 0 2%;
+}
+
+#home {
+    margin-right: 600px;
+    text-align: left;
+    font-size: 2em;
+}
+
+
+main {
+    display: block;
+    padding-bottom: 15%;
+}
+
+.intro {
+    margin: 0%;
+    padding: 0%;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.head {
+    text-align: justify;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 35%;
+    float: left;
+}
+
+.head h1 {
+    color: #133481;
+    font-size: 3.7em;
+    line-height: 40%;
+}
+
+.head h2 {
+    color: #1d8ad8;
+    font-size: 3em;
+    line-height: 0%;
+}
+
+.head p {
+    color: #133481;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.scr {
+    float: right;
+    margin-right: 10%;
+    margin-top: 3%;
+    width: 42%;
+}
+
+.scr img {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 10%;
+    box-shadow: 0px 0px 30px rgb(143, 55, 0);
+
+}
+
+.second {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.about {
+    float: right;
+    color: #1e3872;
+}
+
+
+.signup {
+    background-color: #151b29;
+    color: #f1FF5c;
+    border: 3px solid rgb(75, 75, 25);
+    padding: 1em 2em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.signup:hover {
+    border-color: #2ed01f;
+    color: white;
+    box-shadow: 0 0.5em 0.5em 0.1em #179315;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.fac {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #133481;
+}
+
+article {
+    display: inline-block;
+}
+
+.facilities,
+.g {
+    position: relative;
+    display: inline-block;
+    transition: all 0.5s;
+    text-align: center;
+
+}
+
+.g {
+    border: 2px solid black;
+    border-radius: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.g {
+    width: 19%;
+    margin-left: -10%;
+}
+
+.g img {
+    width: 100%;
+}
+
+.facilities:hover .g {
+    margin: 0%;
+}
+
+.g:nth-of-type(n):hover {
+    transform: scale(2);
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    z-index: 10
+}
+
+
+/* 
+.fields {
+    width: 24%;
+}
+
+.fields img {
+    width: 100%;
+}
+
+.mfield {
+    width: 24%;
+}
+
+.mfield img {
+    width: 100%;
+}
+
+.ifield {
+    width: 24%;
+}
+
+.ifield img {
+    width: 100%;
+}
+
+.weight {
+    width: 24%;
+}
+
+.weight img {
+    width: 100%;
+}
+
+.cardio {
+    width: 24%;
+}
+
+.cardio img {
+    width: 100%;
+} */
