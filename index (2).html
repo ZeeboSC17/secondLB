@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Centre</title>
+    <link rel="stylesheet" href="lab2.css">
+</head>
+
+<body>
+    <section>
+        <!-- <nav class="home">
+            <a href="">SC17 Center</a>
+        </nav> -->
+        <nav class="links">
+            <a href="" id="home">Home</a>
+            <a href="" id="a">About</a>
+            <a href="">Programs and Services</a>
+            <a href="">Membership and Fees</a>
+            <a href="">Donate</a>
+            <a href="">Contact</a>
+        </nav>
+    </section>
+
+    <main>
+        <section class="intro">
+            <section class="head">
+                <h1>Sakib Chowdhury</h1>
+                <h2>Football Academy</h2>
+                <br>
+                <p>
+                    The id attribute is used to refer to the id #home that is used for the "SC17" link at the top left
+                    of the page. Absolute units like "px" are used here as well. Meanwhile, relative units like "%" and
+                    "em" are used elsewhere in this page. The class attribute is used throughout the file for multiple
+                    elements.
+                </p>
+                <p>
+                    The "box model" is used for throughout the files as well. One example is the image on the right. It
+                    has set margins and border. In this case, I didn't change the padding as it would add a gap between
+                    the border and picture.
+                </p>
+                <p>
+                    Additionally, the layout for this text and the picture on the right is by using the "float"
+                    property.
+                </p>
+            </section>
+            <figure class="scr">
+                <img src="https://wallpapercave.com/wp/wp12213797.jpg" alt="">
+            </figure>
+        </section>
+
+        <section class="fac">
+            <h2 class="fac">Facilities</h2>
+            <p class="fac">The ":hover" pseudo-class is applied to the collection of pictures below. The pictures are
+                organized into an article element. When the article element is hovered over, the individual pictures
+                will all have their margins removed, so all the images are displayed side by side. The individual images
+                also has layering effect where the "z-index" is increased when hovered on, so that the image appears in
+                front of the
+                others
+                when it is scaled larger. </p>
+            <article class="facilities">
+                <figure class="fields g">
+                    <img src="https://cdn.mos.cms.futurecdn.net/5QV4TcUWvsfYmm9hAdWXHD.jpg" alt="">
+                </figure>
+                <figure class="mfield g">
+                    <img src="https://png.pngtree.com/background/20230618/original/pngtree-soccer-field-and-stadium-in-3d-rendering-picture-image_3752844.jpg"
+                        alt="">
+                </figure>
+                <figure class="ifield g">
+                    <img src="https://nikolaosmoschos.com/wp-content/uploads/fly-images/723/INDOOR-PITCH-BUILDING-3-scaled-2400x0-c.jpg"
+                        alt="">
+                </figure>
+                <figure class="weight g">
+                    <img src="https://png.pngtree.com/background/20230618/original/pngtree-soccer-field-and-stadium-in-3d-rendering-picture-image_3752844.jpg"
+                        alt="">
+                </figure>
+                <figure class="cardio g">
+                    <img src="https://cdn.mos.cms.futurecdn.net/5QV4TcUWvsfYmm9hAdWXHD.jpg" alt="">
+                </figure>
+                <p class="vis">
+                    This is text that will only be displayed when the collection of images are hovered upon. This is
+                    through using the "display:" property. The "display:" property for this text is set to 'none' by
+                    default, then changed to 'block' when the images are being hovered on.
+                </p>
+            </article>
+
+        </section>
+
+
+        <section class="second">
+            <div class="about">
+                <h2>Join Us</h2>
+                <p>
+                    For the 'sign up' button at the bottom, the "padding" property and ":hover" pseudo-class are used.
+                </p>
+                <button class="signup">Click Here to Sign Up</button>
+            </div>
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>
